@@ -7,5 +7,6 @@ $resumeSong
 
 $onlyIf[$voiceID!=;**Ses Kanalına Girmelisin**]
 
-$suppressErrors[**Müzik Çalmıyor Nasıl Oynatayım?**]`
+$suppressErrors[**Müzik Çalmıyor Nasıl Oynatayım?**]
+$log[//------------------------ MÜZİK DEVAM $username TARAFINDAN KULLANILDI -----------------------\\`
     });

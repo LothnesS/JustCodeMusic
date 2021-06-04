@@ -2,7 +2,7 @@ var dbd = require('aoi.js')
 var fs = require('fs')
 var bot = new dbd.Bot({
 	token:process.env.token,
-	prefix:["$getServerVar[prefix]","!!"],
+	prefix:"!!",
 })
 bot.onMessage()
 var reader = fs.readdirSync("./komutlar/").filter(file => file.endsWith(".js"))
@@ -13,17 +13,7 @@ for(const file of reader) {
 		code: command.code
 	})
 }
-bot.variables({
-  prefix:"*"
-})
 
-bot.command({
-  name:"eval",
-  code:`
-  $onlyForIDs[793589155367354388;Geliştiricim Değilsin]
-  $onlyIf[$message!=;Kod Denemek İçin Bişi Gir]
-  $eval[$message]`
-})//Kod Deneme
 
 bot.command({
   name:"ping",

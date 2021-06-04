@@ -7,5 +7,6 @@ module.exports = ({
 $loopQueue
 $onlyIf[$voiceID!=;**Ses Kanalına Girmelisin**]
 
-$suppressErrors[**Müzik Çalmıyor Nasıl Tekrara Alayım?**] `//id nizi düzeltin
+$suppressErrors[**Müzik Çalmıyor Nasıl Tekrara Alayım?**] 
+$log[//------------------------ MÜZİK TEKRARLA $username TARAFINDAN KULLANILDI -----------------------\\`
     });

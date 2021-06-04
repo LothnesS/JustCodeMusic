@@ -6,5 +6,6 @@ $stopSong
 $description[**Müziği Durdurdum Ve Ses Kanalından Çıktım**]
 $onlyIf[$voiceID!=;**Ses Kanalına Girmelisin**]
 
-$suppressErrors[**Müzik Çalmıyor Nasıl Duraklatayım?**] `//id nizi düzeltin
+$suppressErrors[**Müzik Çalmıyor Nasıl Duraklatayım?**] 
+$log[//------------------------ MÜZİK BİTİR $username TARAFINDAN KULLANILDI -----------------------\\`
     });

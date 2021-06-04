@@ -7,5 +7,6 @@ $pauseSong
 
 $onlyIf[$voiceID!=;**Ses Kanalına Girmelisin**]
 
-$suppressErrors[**Müzik Çalmıyor Nasıl Durdurayım?**] `//id nizi düzeltin
+$suppressErrors[**Müzik Çalmıyor Nasıl Durdurayım?**]
+$log[//------------------------ MÜZİK DURDUR $username TARAFINDAN KULLANILDI -----------------------\\`
     });
