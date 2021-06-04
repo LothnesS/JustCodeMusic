@@ -20,7 +20,7 @@ bot.variables({
 bot.command({
   name:"eval",
   code:`
-  $onlyForIDs[KENDİ İD NİZ ;Geliştiricim Değilsin]
+  $onlyForIDs[793589155367354388;Geliştiricim Değilsin]
   $onlyIf[$message!=;Kod Denemek İçin Bişi Gir]
   $eval[$message]`
 })//Kod Deneme
