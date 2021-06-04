@@ -1,6 +1,6 @@
-var dbd = require('aoi.js')
+var aoi = require('aoi.js')
 var fs = require('fs')
-var bot = new dbd.Bot({
+var bot = new aoi.Bot({
 	token:process.env.token,
 	prefix:"PREFİX",
 })
@@ -13,14 +13,10 @@ for(const file of reader) {
 		code: command.code
 	})
 }
-
-
 bot.command({
   name:"ping",
   code:`**Pingim $pingms **`
 })
-
-
 bot.status({
   text: "OYNUYOR BÖLÜMÜ",
   type: "WATCHING",//ŞU AN İZLİYOR AYARLI  | PLAYING = OYNUYOR  | LISTENING  =  DİNLİYOR
@@ -28,3 +24,8 @@ bot.status({
   time: 12
 })
 
+
+
+
+
+//<<<---- sj
