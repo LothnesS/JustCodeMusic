@@ -3,7 +3,7 @@ module.exports = ({
     code: `
     $color[$random[0;9999]]
 $stopSong
-$description[**]
+$description[**Müziği Durdurdum Ve Ses Kanalından Çıktım**]
 $onlyIf[$voiceID!=;**Ses Kanalına Girmelisin**]
 
 $suppressErrors[**Müzik Çalmıyor Nasıl Duraklatayım?**] `//id nizi düzeltin
