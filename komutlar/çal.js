@@ -10,5 +10,7 @@ $description[Şuanda Oynatılan Müzik **$songInfo[title]**
 **Müzik İsmi **
 $playSong[$message; **Böyle bir müzik bulamadım tekrar denermisin**]
 $onlyIf[$voiceID!=; **Ses Kanalına Girmelisin**]
-$onlyIf[$message!=; **Bir Müzik İsmi Girmelisin**]`
+$onlyIf[$message!=; **Bir Müzik İsmi Girmelisin**]
+$footer[$username Tarafından Kullanıldı]
+$log[//------------------------ MÜZİK $username TARAFINDAN KULLANILDI -----------------------\\`
 }

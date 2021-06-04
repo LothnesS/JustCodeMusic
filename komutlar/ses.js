@@ -3,6 +3,7 @@ module.exports = ({
     code: `
        $color[$random[0;9999]]
        $description[**Ses Seviyesi \` $message \` Olarak Ayarlandı**]
+       $footer[Keyifli Müzikler]
 $volume[$message]
 $onlyIf[$isNumber[$message]!=false; **Girdiğin Bir Rakam Değil**]
 $onlyIf[$voiceID!=; **Ses Kanalına Girmelisin**]
