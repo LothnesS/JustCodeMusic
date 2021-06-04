@@ -2,7 +2,7 @@ var dbd = require('aoi.js')
 var fs = require('fs')
 var bot = new dbd.Bot({
 	token:process.env.token,
-	prefix:"!!",
+	prefix:"PREFİX",
 })
 bot.onMessage()
 var reader = fs.readdirSync("./komutlar/").filter(file => file.endsWith(".js"))
@@ -27,3 +27,4 @@ bot.status({
   status: "dnd",//ŞU AN RAHATSIZ ETMEYİNDE  | onlıne | ıdle = Boşta 
   time: 12
 })
+
