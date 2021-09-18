@@ -7,7 +7,7 @@
     "start": "node hunter.js"
   },
   "dependencies": {
-    "aoi.js": "^3.0.0",
+    "aoi.js": "^4.4.4",
     "express": "^4.17.1",
     "ytdl-core": "^4.1.4",
     "fs": "^0.0.2"
