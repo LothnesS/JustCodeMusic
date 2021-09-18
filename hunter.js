@@ -20,17 +20,12 @@ for (const file of reader) {
 
 }
 bot.status({
-  text: "YouTube / Kadir Mercan",
+  text: "Oyunuyor Bölümü",
   type: "WATCHING",//ŞU AN İZLİYOR AYARLI  | PLAYING = OYNUYOR  | LISTENING  =  DİNLİYOR
   status: "dnd",//ŞU AN RAHATSIZ ETMEYİNDE  | onlıne | ıdle = Boşta 
   time: 12
 })
 
-bot.command({
-   name:"eval",
-  code:`$eval[$message]
- `
-})
 
 
 
