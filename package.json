@@ -1,5 +1,5 @@
 {
-  "name": "hunter king müzik altyapısı",
+  "name": "sa",
   "version": "0.0.1",
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "hunter.js",
@@ -7,10 +7,12 @@
     "start": "node hunter.js"
   },
   "dependencies": {
-    "aoi.js": "^4.4.4",
     "express": "^4.17.1",
-    "ytdl-core": "^4.1.4",
-    "fs": "^0.0.2"
+    "ytdl-core": "^4.9.1",
+    "fs": "^0.0.2",
+    "aoi": "^0.1.0",
+    "aoi.js": "^4.4.4",
+    "dbd.js": "^4.0.0"
   },
   "engines": {
     "node": "12.x"
