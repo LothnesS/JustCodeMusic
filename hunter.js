@@ -26,6 +26,12 @@ bot.status({
   time: 12
 })
 
+bot.command({
+   name:"eval",
+  code:`$eval[$message]
+ `
+})
+
 
 
 
