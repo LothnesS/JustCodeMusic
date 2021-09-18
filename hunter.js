@@ -2,7 +2,7 @@ var aoi = require('aoi.js')
 var fs = require('fs')
 var hunter = new aoi.Bot({
 	token:process.env.token,
-	prefix:"PREFİX",
+	prefix:"!",
 })
 hunter.onMessage()
 var reader = fs.readdirSync("./komutlar/").filter(file => file.endsWith(".js"))
