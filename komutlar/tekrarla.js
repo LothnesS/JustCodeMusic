@@ -1,5 +1,7 @@
 module.exports = ({
     name: "tekrarla",
+    aliases:"repeat",
+    aliases: "loop",
     code: `
        $color[$random[0;9999]]
        $description[**$songInfo[title]** Adlı Müzik Tekrara Alındı]

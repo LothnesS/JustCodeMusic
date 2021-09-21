@@ -1,5 +1,6 @@
 module.exports = ({
     name: "devam",
+    aliases: "resume",
     code: `
         $color[$random[0;9999]]
         $description[**Müziği Devam Ettiriyorum**]

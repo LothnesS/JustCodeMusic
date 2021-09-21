@@ -1,8 +1,8 @@
 var ss = require('aoi.js')
 var fs = require('fs')
 var bot = new ss.Bot({
-	token:process.env.token,
-	prefix:"!",
+	token:"TOKEN YAZIN",
+	prefix:"-",
 })
 bot.onLeave();
 bot.onJoined();
@@ -20,13 +20,11 @@ for (const file of reader) {
 
 }
 bot.status({
-  text: "Oyunuyor Bölümü",
-  type: "WATCHING",//ŞU AN İZLİYOR AYARLI  | PLAYING = OYNUYOR  | LISTENING  =  DİNLİYOR
-  status: "dnd",//ŞU AN RAHATSIZ ETMEYİNDE  | onlıne | ıdle = Boşta 
+  text: "🎶 -yardım│$serverCount Sunucuda $allMembersCount Kullanıcıya Hizmet Veriyorum",
+  type: "LISTENING",//ŞU AN İZLİYOR AYARLI  | PLAYING = OYNUYOR  | LISTENING  =  DİNLİYOR
+  status: "idle",//ŞU AN RAHATSIZ ETMEYİNDE  | onlıne | ıdle = Boşta 
   time: 12
 })
-
-
 
 
 
